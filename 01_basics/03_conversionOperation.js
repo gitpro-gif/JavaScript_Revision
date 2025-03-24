@@ -29,4 +29,35 @@ let StringNumber = String(someNumber)
 console.log(StringNumber); // 33
 console.log(typeof StringNumber); // String
 
+// operations
+
+let values = 3
+let negValue = -values
+console.log(negValue); // -3
+
+console.log(2 + 2); // 4
+console.log(2 - 2); // 0
+console.log(2 * 2); // 4
+console.log(2 ** 2); // 4
+console.log(2 / 2); // 1
+console.log(2 % 2); // 0
+
+// to join  strings
+let str1 = "Vedant"
+let str2 = "Sandeep"
+let str3 = "Mahajan"
+
+let str4 = str1 + " " + str2 + " " + str3
+console.log(str4);
+
+// Problems
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + "2"); // 12
+console.log("1" + "1" + 2) // 112
+console.log(1 + 2 +"2"); // 32
+
+
+
+
 
